@@ -1,0 +1,32 @@
+
+.an_box {
+    float: right;
+    width: 340px;
+    height: 304px;
+    margin-right: 20px;
+    margin-top: 40px;
+    overflow: hidden;
+    background: white;
+    cursor: pointer;
+}
+.more {
+    width: 122px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 1px dashed #03eeac;
+    color: #03eeac;
+    text-align: center;
+    font: 500 18px/48px '微软雅黑';
+    cursor: pointer;
+}
+.more:hover {
+    background: #03eeac;
+    color: white;
+    transition: all .5s;
+}
+.foot{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}

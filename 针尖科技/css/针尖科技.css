@@ -1,0 +1,1195 @@
+body {
+    font-family: 楷体;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.donghua{
+    position: fixed;
+    top:0;
+    left:0;
+    background: url("../images/welcome_h800.jpg")no-repeat center center;
+    background-size: cover;
+    z-index: 100;
+}
+.donghua div{
+    width: 370px;
+    height: 206px;
+    margin: 0 auto;
+    margin-top: 220px;
+    background: url("../images/welcome_words.png")no-repeat center center;
+}
+.index {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+i {
+    display: inline-block;
+    float: left;
+    background: url("../images/icons.png") no-repeat;
+}
+
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+header.col {
+    background: rgba(0, 0, 0, .5);
+}
+
+.header_box {
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0);
+}
+
+.logo {
+    margin-top: 23px;
+    float: left;
+}
+
+.logo img {
+    width: 330px;
+    height: 53px;
+}
+
+.header_nav {
+    position: relative;
+    width: 700px;
+    height: 100px;
+    float: left;
+}
+
+.header_nav > div {
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 55px;
+    height: 3px;
+    background: #02dab3;
+}
+
+.header_nav ul li {
+    float: left;
+    width: 87.5px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header_nav ul li.active {
+    color: #02dab3;
+}
+
+.header_tel {
+    width: 225px;
+    height: 100px;
+    float: right;
+}
+
+.tu_tel {
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+}
+
+.header_tel span {
+    margin-left: 17px;
+    line-height: 100px;
+    font-size: 23px;
+    color: #02dab3;
+}
+
+/*header结束*/
+.box_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.box {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*轮播图*/
+.wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 7000px;
+}
+
+.wrap_img {
+    float: left;
+    width: 1400px;
+    background-size: cover;
+}
+
+.banner ul {
+    position: absolute;
+    left: 50%;
+    margin-left: 400px;
+    top: 95%;
+    width: 100px;
+    height: 3px;
+}
+
+.banner ul li {
+    float: left;
+    width: 20px;
+    height: 3px;
+    background: white;
+    margin-left: 0;
+}
+
+.banner ul li + li {
+    margin-left: 6px;
+}
+
+.banner ul li.now {
+    background: #02dab3;
+}
+
+rb {
+    display: inline-block;
+    float: left;
+    background: url("../images/words.png") no-repeat;
+}
+
+.qi {
+    width: 120px;
+    height: 230px;
+    background-position: -380px 0;
+}
+
+.spe {
+    width: 338px;
+    height: 66px;
+    background-position: 0 0;
+    margin-top: 12px;
+}
+
+.lay {
+    width: 237px;
+    height: 63px;
+    background-position: 0px -147px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.dev {
+    width: 358px;
+    height: 63px;
+    background-position: 0px -220px;
+    margin-top: 20px;
+}
+
+.des {
+    width: 318px;
+    height: 68px;
+    background-position: 0 -75px;
+    margin-top: 20px;
+}
+
+.bannner_contern {
+    width: 500px;
+    height: 250px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 200px;
+    border: 1px solid transparent;
+    display: none;
+}
+
+.bannner_contern h1 {
+    float: left;
+    font: 400 35px/35px '微软雅黑';
+    margin-top: 38px;
+}
+
+.bannner_contern p {
+    float: left;
+    width: 250px;
+    margin-top: 9px;
+    font: 300 16px/25px '微软雅黑';
+}
+
+.banner_mode {
+    width: 315px;
+    text-align: center;
+}
+
+.banner_mode p span {
+    color: #02dab3;
+}
+
+.banner_left {
+    float: left;
+    width: 700px;
+    background: rgba(11, 21, 26, .7);
+    display: none;
+}
+
+.banner_btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -650px;
+    width: 500px;
+    height: 48px;
+}
+
+.sm_btn {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -60px;
+    cursor: pointer;
+}
+
+.sm_btn:hover {
+    background-position: 0 -112px;
+}
+
+.new {
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 412px;
+    height: 20px;
+}
+
+.new span {
+    float: left;
+    color: #02dab3;
+    font: 500 16px/20px '楷体';
+}
+
+.banner_new {
+    position: relative;
+    float: left;
+    width: 288px;
+    height: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.banner_new div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 288px;
+    height: 100px;
+
+}
+
+.banner_new div li {
+    height: 20px;
+    list-style: none;
+}
+
+.banner_new div li a {
+    font: 400 14px/20px '楷体';
+    color: white;
+}
+
+.cando {
+    position: relative;
+    background-size: cover;
+    background: url("../images/wallpaper2.jpg") no-repeat center bottom;
+}
+
+.cando_conten {
+    position: absolute;
+    left: 50%;
+    margin-left: -640px;
+    width: 1280px;
+    height: 350px;
+    /*display: none;*/
+}
+
+.cando_box {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 340px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 2;
+}
+
+.yuan {
+    position: relative;
+    width: 156px;
+    height: 156px;
+    margin: 0 auto;
+    margin-top: 40px;
+    z-index: 3;
+}
+
+.yuan_left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 78px;
+    height: 156px;
+    clip: rect(0px, 78px, 156px, 0px);
+    transition: clip .5s;
+}
+
+.yuan_left.y_top {
+    clip: rect(156px, 78px, 156px, 0px);
+    transition: clip .5s;
+}
+
+.yuan_right {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 78px;
+    height: 156px;
+    clip: rect(0px, 78px, 156px, 0px);
+    transition: clip .5s;
+}
+
+.yuan_right.y_bottom {
+    clip: rect(0px, 78px, 0px, 0px);
+    transition: clip .5s;
+}
+
+.yuan_l {
+    width: 78px;
+    height: 156px;
+    background-position: 0 -363px;
+}
+
+.yuan_r {
+    width: 78px;
+    height: 156px;
+    background-position: -78px -363px;
+}
+
+.yuan_img {
+    position: absolute;
+    width: 70px;
+    height: 57px;
+    left: 50%;
+    top: 50%;
+    margin-left: -35px;
+    margin-top: -28px;
+    background-position: -245px -362px;
+    z-index: 2;
+}
+
+.yuan_img.y_img {
+    background-position: -168px -362px;
+    transition: background-position 1s .5s;
+}
+
+.yuan_bottom {
+    position: absolute;
+    top: 340px;
+    left: 0;
+    height: 340px;
+    background: #2fd0b5;
+    z-index: 2;
+}
+
+.cando_title {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -42px;
+    font: 400 17px/20px '微软雅黑';
+    margin-top: 70px;
+    color: #2f2e2c;
+    z-index: 3;
+}
+
+.cando_title.cando_title_col {
+    color: white;
+    transition: color 1s .5s;
+}
+
+.yuan_bottom p {
+    text-align: center;
+    font: 400 13px/20px '微软雅黑';
+    color: white;
+    margin-top: 260px;
+}
+
+.cando_foot {
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    margin-left: -143px;
+    z-index: 1;
+    width: 286px;
+    height: 22px;
+    background-position: 0 -333px;
+}
+
+.anli {
+    background-size: cover;
+    background: url("../images/wallpaper3.jpg") no-repeat center bottom;
+}
+
+.anli_conten {
+    width: 1060px;
+    min-height: 304px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.anli_box {
+    float: left;
+    width: 340px;
+    height: 304px;
+    margin-left: 20px;
+    overflow: hidden;
+    background: white;
+    cursor: pointer;
+}
+
+.anli_top {
+    position: relative;
+    width: 340px;
+    height: 200px;
+}
+
+.anli_jia {
+    width: 44px;
+    height: 44px;
+    margin-left: 148px;
+    margin-top: 80px;
+    background-position: 0 -168px;
+}
+
+.anli_top div {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 340px;
+    height: 200px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.anli_bottom {
+    position: relative;
+    width: 340px;
+    height: 102px;
+    border-bottom: 2px solid #0fccec;
+}
+
+.anli_bottom div {
+    position: absolute;
+    left: 0;
+    top: 102px;
+    width: 340px;
+    height: 102px;
+    background: #0fccec;
+    z-index: 1;
+}
+
+.anli_bottom ul {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    z-index: 2;
+}
+
+.anli_bottom ul li {
+    font: 13px/25px '微软雅黑';
+    color: #838385;
+}
+
+.anli_bottom ul li.anli_col {
+    color: #1e1e1e;
+}
+
+.anli_bottom ul li.li_col {
+    color: white;
+}
+
+.anli_more {
+    width: 122px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 1px dashed #03eeac;
+    color: #03eeac;
+    text-align: center;
+    font: 500 18px/48px '微软雅黑';
+    cursor: pointer;
+}
+
+.anli_more:hover {
+    background: #03eeac;
+    color: white;
+    transition: all .5s;
+}
+
+.customer {
+    background-size: cover;
+    background: url("../images/wallpaper4.jpg") no-repeat center bottom;
+}
+
+.customer_nav {
+    width: 300px;
+    height: 38px;
+    margin-left: 550px;
+    margin-top: 120px;
+    background-position: -152px -528px;
+}
+
+.customer_box {
+    width: 1155px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.customer_box ul {
+    width: 1155px;
+    height: 150px;
+}
+
+.customer_box ul li {
+    width: 231px;
+    height: 150px;
+    float: left;
+    background: url("../images/clients.png") no-repeat;
+}
+
+.customer_box ul .cctv {
+    background-position: 0px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .cctv:hover {
+    background-position: 0px -150px;
+    transition: all 1s;
+
+}
+
+.customer_box ul .liantong {
+    background-position: -231px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .liantong:hover {
+    background-position: -231px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .daxue {
+    background-position: -462px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .daxue:hover {
+    background-position: -462px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .kexue {
+    background-position: -693px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .kexue:hover {
+    background-position: -693px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .zhishi {
+    background-position: -924px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .zhishi:hover {
+    background-position: -924px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .apple {
+    background-position: -1155px -0px;
+    transition: all 1s;
+}
+
+.customer_box ul .apple:hover {
+    background-position: -1155px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .dazhong {
+    background-position: -1386px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .dazhong:hover {
+    background-position: -1386px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .hunan {
+    background-position: -1617px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .hunan:hover {
+    background-position: -1617px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .chuan {
+    background-position: -1848px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .chuan:hover {
+    background-position: -1848px -150px;
+    transition: all 1s;
+}
+
+.customer_box ul .bjliang {
+    background-position: -2541px 0px;
+    transition: all 1s;
+}
+
+.customer_box ul .bjliang:hover {
+    background-position: -2541px -150px;
+    transition: all 1s;
+}
+
+/*品质*/
+.quality {
+    background: url("../images/wallpaper5.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.quality_nav {
+    width: 242px;
+    height: 37px;
+    margin-left: 580px;
+    margin-top: 160px;
+    background-position: 0px -576px;
+}
+
+.quality_conten {
+    width: 850px;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.quality_box {
+    float: left;
+    width: 213px;
+    height: 190px;
+    margin-left: 105px;
+}
+
+.quality_top {
+    position: relative;
+    width: 213px;
+    height: 70px;
+}
+
+.qu_1 {
+    width: 14px;
+    height: 27px;
+    margin-left: -65px;
+    background-position: 0 -264px;
+}
+
+.qu_2 {
+    width: 35px;
+    height: 27px;
+    margin-left: -23px;
+    background-position: 0 -304px;
+}
+
+.qu_3 {
+    width: 24px;
+    height: 30px;
+    margin-left: -10px;
+    margin-top: -2px;
+    background-position: 0 -344px;
+}
+
+.qu_4 {
+    width: 28px;
+    height: 28px;
+    margin-left: -90px;
+    background-position: 0 -392px;
+}
+
+.qu_5 {
+    width: 32px;
+    height: 30px;
+    margin-left: -43px;
+    background-position: 0 -432px;
+}
+
+.qu_6 {
+    width: 29px;
+    height: 23px;
+    margin-left: 40px;
+    margin-top: 2px;
+    background-position: -71px -264px;
+}
+
+.qu_7 {
+    width: 29px;
+    height: 27px;
+    margin-left: -70px;
+    background-position: -71px -304px;
+}
+
+.qu_8 {
+    width: 29px;
+    height: 29px;
+    margin-left: 40px;
+    background-position: -71px -345px;
+}
+
+.qu_9 {
+    width: 29px;
+    height: 30px;
+    margin-left: 10px;
+    background-position: -71px -392px;
+}
+
+.qu_10 {
+    width: 29px;
+    height: 32px;
+    margin-left: 60px;
+    margin-top: -2px;
+    background-position: -71px -432px;
+}
+
+.quality_bottom {
+    width: 213px;
+    height: 144px;
+}
+
+.qu {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.quality_bottom p {
+    text-align: center;
+    font: 400 13px/36px '微软雅黑';
+    color: white;
+}
+
+/*商机开始*/
+.shangji {
+    background: url("../images/wallpaper6.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+.y_left {
+    width: 64px;
+    height: 128px;
+    background-position: 0 -625px;
+}
+
+.y_right {
+    width: 64px;
+    height: 128px;
+    background-position: -64px -625px;
+}
+
+.yuan_img_1 {
+    position: absolute;
+    width: 54px;
+    height: 56px;
+    left: 50%;
+    top: 50%;
+    margin-left: -27px;
+    margin-top: -28px;
+    background-position: -144px -640px;
+    z-index: 2;
+}
+
+.yuan_img_2 {
+    position: absolute;
+    width: 72px;
+    height: 56px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -27px;
+    background-position: -208px -638px;
+    z-index: 2;
+}
+
+.yuan_img_3 {
+    position: absolute;
+    width: 72px;
+    height: 56px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -27px;
+    background-position: -286px -638px;
+    z-index: 2;
+}
+
+.yuan_img_4 {
+    position: absolute;
+    width: 72px;
+    height: 56px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -27px;
+    background-position: -359px -638px;
+    z-index: 2;
+}
+
+.yuan_img_5 {
+    position: absolute;
+    width: 60px;
+    height: 70px;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -35px;
+    background-position: -439px -638px;
+    z-index: 2;
+}
+
+.yuan_img_6 {
+    position: absolute;
+    width: 54px;
+    height: 56px;
+    left: 50%;
+    top: 50%;
+    margin-left: -27px;
+    margin-top: -28px;
+    background-position: -144px -712px;
+    z-index: 2;
+}
+
+.cando_box strong {
+    font: 600 17px/60px '微软雅黑';
+}
+
+.cando_box p {
+    text-align: center;
+    font: 400 14px/20px '微软雅黑';
+
+}
+
+.about {
+    background: url("../images/wallpaper7.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.about_btn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: -63px;
+    width: 80px;
+    height: 126px;
+    background: rgba(0, 68, 65, .4);
+}
+
+.about_btn ul {
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #697e81;
+    font: 400 15px/42px '微软雅黑';
+    z-index: 2;
+    cursor: pointer;
+}
+
+.about_btn ul.font_col {
+    transition: color 1s;
+    color: white;
+}
+
+.about_btn div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 42px;
+    background: #205251;
+    opacity: .5;
+    z-index: 1;
+}
+
+.about_box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -180px;
+    width: 480px;
+    height: 240px;
+    overflow: hidden;
+}
+
+.about_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+}
+
+.about_mode {
+    float: left;
+    width: 480px;
+    height: 240px;
+}
+
+.about_foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: rgba(255, 255, 255, .1);
+}
+
+.about_foot_box {
+    position: relative;
+}
+
+.about_foot ul {
+    position: absolute;
+    left: 50%;
+    width: 250px;
+}
+
+.about_foot ul span {
+    float: left;
+    color: #1bdfb9;
+    font: 600 18px/75px '微软雅黑';
+}
+
+.about_foot ul li {
+    float: left;
+    margin-left: 12px;
+    color: white;
+    font: 500 12px/75px '微软雅黑';
+}
+
+.about_mode strong {
+    font: 40px/55px '微软雅黑';
+    color: white;
+}
+
+.about_mode > p {
+    font: 14px/35px '微软雅黑';
+    color: #919297;
+}
+
+.about_mode li span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about_mode li p {
+    display: inline-block;
+    font: 14px/35px '微软雅黑';
+    color: #919297;
+}
+
+.about_mode li {
+    font: 14px/35px '微软雅黑';
+    color: #1bdfb9;
+}
+
+/*联系*/
+.lianxi {
+    background: url("../images/wallpaper8.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.lianxi_con {
+    width: 850px;
+    height: 255px;
+    margin: 0 auto;
+    margin-top: 144px;
+    border-bottom: 1px dashed #c1bdba;
+}
+
+.lianxi_box {
+    width: 272px;
+    height: 255px;
+    float: left;
+}
+
+.lianxi_tel {
+    display: inline;
+    width: 238px;
+    height: 26px;
+    margin-top: 48px;
+    margin-bottom: 10px;
+    background-position: -4px -882px;
+}
+
+.lianxi_box p {
+    width: 250px;
+    font: 400 14px/30px '微软雅黑';
+    color: #696768;
+}
+
+.lianxi_box p a {
+    margin-left: 8px;
+    color: red;
+}
+
+.lianxi_box span {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.lianxi_foot {
+    width: 817px;
+    height: 166px;
+    margin: 0 auto;
+}
+
+.lianxi_foot_img {
+    width: 427px;
+    height: 86px;
+    margin-left: 195px;
+    margin-top: 50px;
+    background-position: 0 -787px;
+}
+
+.right_nav {
+    position: fixed;
+    right: -10px;
+    top: 50%;
+    margin-top: -125px;
+    border-radius: 10px;
+    width: 60px;
+    height: 250px;
+    background: rgba(32,32,34,.8);
+    transition: all 1s;
+    z-index: 4;
+}
+.right_nav.top_right{
+    right: -100px;
+    transition: all 1s;
+}
+.right_nav i{
+    position: absolute;
+}
+.r_btn_up{
+    width: 23px;
+    height: 13px;
+    background-position: -77px -167px;
+    top:7%;
+    left: 25%;
+}
+.btn_hover:hover{
+    opacity: .5;
+    transition: all .3s;
+}
+.r_btn_down{
+    width: 23px;
+    height: 13px;
+    top:87%;
+    left: 25%;
+    background-position: -77px -209px;
+}
+.r_btn_qq{
+    width: 24px;
+    height: 24px;
+    background-position: -76px -32px;
+    top:22%;
+    left: 24%;
+}
+.r_btn_weixin{
+    width: 30px;
+    height: 25px;
+    background-position: -70px -79px;
+    top:67%;
+    left: 19%;
+}
+.r_btn_tel{
+    width: 24px;
+    height: 25px;
+    top:50%;
+    margin-top: -12px;
+    left: 24%;
+    background-position: -76px -120px;
+}
+.r_btn_hide{
+    position: fixed;
+    right: 10px;
+    top:72%;
+    width: 26px;
+    height: 26px;
+    background-position: 0px -640px;
+    z-index: 4;
+}
+.r_btn_hide.bian_hide{
+    background-position: -32px -640px;
+}
+.right_nav i{
+    z-index: 2;
+}
+.btn_box{
+    position: absolute;
+    right: -170px;
+    top: 50%;
+    margin-top: -80px;
+    width: 170px;
+    height: 160px;
+    border-radius: 10px;
+    clip: rect(0,160px,160px,0);
+    background: rgba(32,32,34,.8);
+    z-index: 1;
+    transition: all .2s;
+    text-align: center;
+    color: white;
+}
+.btn_box p{
+    line-height: 40px;
+}
+.box_move{
+    right: 50px;
+    transition: all .5s;
+}

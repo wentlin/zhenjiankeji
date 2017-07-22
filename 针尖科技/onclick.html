@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标题</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/针尖科技.css">
+    <link rel="stylesheet" href="css/onclick.css">
+</head>
+<body>
+<header style="background: rgba(0, 0, 0, .8);">
+    <div class="header_box">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="header_nav">
+            <div></div>
+            <ul>
+                <a href="index.html">
+                    <li>首页</li>
+                </a>
+                <li>业务</li>
+                <li class="active">案例</li>
+                <li>客户</li>
+                <li>品质</li>
+                <li>增值</li>
+                <li>关于</li>
+                <li>联系</li>
+            </ul>
+        </div>
+        <div class="header_tel">
+            <i class="tu_tel"></i>
+            <span>15267081369</span>
+        </div>
+    </div>
+</header>
+<p style="margin-top:150px;text-align: center;font: 600 30px/30px '楷体';color: #333333">设计欣赏</p>
+
+<div class="click_img"><img src="" alt=""></div>
+
+<div class="foot">
+    <div class="lianxi_con" style="margin-top: 40px">
+        <div class="lianxi_box">
+            <img style=";margin-top: 48px" src="images/wechat_code.jpg" alt="">
+        </div>
+        <div class="lianxi_box">
+            <rb class="lianxi_tel"></rb>
+            <p>中国<span>·</span>杭州<span></span>余杭区未来科技城<br>联系电话:15267081369<br>地址:余杭区利尔达科技园6号楼1205<br>邮编：311100<a href=""
+                                                                                                                 target="_blank"
+                                                                                                                 class="job">[工作机会]</a>
+            </p>
+        </div>
+        <div class="lianxi_box">
+            <p style="margin-top: 48px;width: 290px;">
+                Email：Service@zhenjiankeji.com<br>中文域名：针尖科技<u>/</u>zhenjiankeji.com<br>Copyright 2008-2016<u></u>杭州针尖科技有限公司<br>浙ICP备
+                15024419 号<br>浙公网安备 33010602000888 号<br>
+            </p>
+        </div>
+    </div>
+    <div class="lianxi_foot" style="margin-top: 0px">
+        <rb class="lianxi_foot_img"></rb>
+    </div>
+</div>
+
+<div class="right_nav">
+    <i class="r_btn_qq btn_hover" style="top: 12%;"></i>
+    <i class="r_btn_weixin btn_hover" style="top: 75%;"></i>
+    <i class="r_btn_tel btn_hover"></i>
+    <div class="qq_box btn_box">
+        <p>客户咨询</p>
+        <p>在线沟通，请点我</p>
+        <p>QQ:295296625</p>
+    </div>
+    <div class="tel_box btn_box">
+        <p>客户咨询热线：</p>
+        <p>15267081369</p>
+        <p>售后电话：</p>
+        <p>15397066201</p>
+    </div>
+    <div class="weixin_box btn_box">
+        <img style="width: 140px;height: 140px;opacity: .8; margin-top: 10px;margin-left: -7px"
+             src="images/wechat_code.jpg" alt="">
+    </div>
+</div>
+<i class="r_btn_hide"></i>
+
+<script src="jq/jquery-1.8.3.min.js"></script>
+<script src="js/针尖科技.js"></script>
+<script>
+    $(function () {
+        (function () {
+            var hash_num = window.location.hash.substring(1);
+            console.log(hash_num);
+            aJax();
+            function aJax() {
+//                1
+                var xhr = null;
+                if (window.XMLHttpRequest) {
+                    xhr = new XMLHttpRequest();
+                } else {
+                    xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+//                2
+                xhr.open("get", "js/articleData.json", true);
+//                3
+                xhr.send(null);
+//                4
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200) {
+                            var jsondx = xhr.responseText;
+                            var arraydx = JSON.parse(jsondx);
+                            console.log(arraydx);
+                            $('.click_img img').attr("src",""+arraydx[hash_num].data.coverImg+"");
+                        }
+                    }
+                }
+
+
+            }
+
+
+        })();
+    })
+</script>
+</body>
+</html>

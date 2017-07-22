@@ -1,0 +1,331 @@
+{
+    "xiaoniaoNews1":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "胜林三境重装出发",
+            "sysId": 1,
+            "content": "content",
+            "coverImg": "images/1604594V1-0.jpg"
+        }
+    },
+    "xiaoniaoNews2":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "小鸟掌学开通国外渠道",
+            "sysId": 2,
+            "content": "content",
+            "coverImg": "images/1A03MN0-0.jpg"
+        }
+    },
+   "xiaoniaoNews3": {
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "胜林三境天气app上线",
+            "sysId": 3,
+            "content": "content",
+            "coverImg": " images/1649345020-0.jpg"
+        }
+    },
+   "xiaoniaoNews4":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 4,
+            "content": "content",
+            "coverImg": "images/1646115O4-0.jpg"
+        }
+    },
+    "xiaoniaoNews5":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 5,
+            "content": "content",
+            "coverImg": "images/164RIF9-0.jpg"
+        }
+    },
+    "xiaoniaoNews6":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 6,
+            "content": "content",
+            "coverImg": "images/16245RD8-0.jpg"
+        }
+    },
+    "xiaoniaoNews7":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 7,
+            "content": "content",
+            "coverImg": "images/1644594451-0.jpg"
+        }
+    },
+    "xiaoniaoNews8":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 8,
+            "content": "content",
+            "coverImg": "images/164H26107-0.jpg"
+        }
+    },
+    "xiaoniaoNews9":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 9,
+            "content": "content",
+            "coverImg": "images/16430I405-0.jpg"
+        }
+    },
+    "xiaoniaoNews10":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 10,
+            "content": "content",
+            "coverImg": "images/162T233P-0.jpg"
+        }
+    },
+    "xiaoniaoNews11":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 11,
+            "content": "content",
+            "coverImg": "images/163GW604-0.jpg"
+        }
+    },
+    "xiaoniaoNews12":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 12,
+            "content": "content",
+            "coverImg": "images/163U52618-0.jpg"
+        }
+    },
+    "xiaoniaoNews13":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 5,
+            "content": "content",
+            "coverImg": "images/1621511049-0.jpg"
+        }
+    },
+    "xiaoniaoNews14":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 14,
+            "content": "content",
+            "coverImg": "images/1615142b9-0.jpg"
+        }
+    },
+    "xiaoniaoNews15":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "小鸟动态",
+            "typeEntitle": "Our Dynamic",
+            "title": "国外报道",
+            "sysId": 15,
+            "content": "content",
+            "coverImg": "images/1622555246-0.jpg"
+        }
+    },
+
+
+
+
+
+
+    "companyIdea" :{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "公司文化",
+            "typeEntitle": "company culture",
+            "title": "公司理念",
+            "content": "content",
+            "coverImg": "../images1/article_image05.jpg"
+        }
+    },
+    "companyCulture":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "公司文化",
+            "typeEntitle": "company culture",
+            "title": "公司文化",
+            "content": "content",
+            "coverImg": "../images1/article_image06.jpg"
+        }
+    },
+    "companyEnvironment":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "公司文化",
+            "typeEntitle": "company culture",
+            "title": "公司氛围",
+            "content": "content",
+            "coverImg": "../images1/article_image07.jpg"
+        }
+    },
+    "talents":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "人力资源",
+            "typeEntitle": "company culture",
+            "title": "人才理念",
+            "content": "content",
+            "coverImg": "../images1/article_image08.jpg"
+        }
+    },
+    "team":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "人力资源",
+            "typeEntitle": "company culture",
+            "title": "团队介绍",
+            "content": "content",
+            "coverImg": "../images1/article_image09.jpg"
+        }
+    },
+    "joinUs":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "人力资源",
+            "typeEntitle": "company culture",
+            "title": "招聘信息",
+            "content": "content",
+            "coverImg": "../images1/article_image10.jpg"
+        }
+    },
+    "telUs":{
+        "success": "成功",
+        "data": {
+            "creatAt": "2016-02-03 15:23:56.0",
+            "creatByFullName": "管理员",
+            "updateAt": "2016-02-19 16:02:42.0",
+            "updateByFullName": "管理员",
+            "typeTitle": "联系我们",
+            "typeEntitle": "Contact Us",
+            "title": "联系我们",
+            "content": "content",
+            "coverImg": "../images1/article_image11.jpg"
+        }
+    }
+}
